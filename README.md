@@ -27,5 +27,5 @@ $ sudo pip3 install PyPDF2
 ### Usage:
 
 ```bash
-$ python know_count.py <filename>
+$ python3 know_count.py <filename>
 ```
