@@ -28,7 +28,7 @@ def getWordCount(data):
 
 def main():
 	if len(sys.argv)!=2:
-		print('command usage: python know_count.py FileName')
+		print('command usage: python word_count.py FileName')
 		exit(1)
 	else:
 		pdfFile = sys.argv[1]
