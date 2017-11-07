@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-
 import os
 import sys
 import re
 import time
 import PyPDF2
-
 
 def getPageCount(pdf_file):
 
@@ -14,7 +12,6 @@ def getPageCount(pdf_file):
 	pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 	pages = pdfReader.numPages
 	return pages
-
 
 def extractData(pdf_file, page):
 
@@ -24,13 +21,10 @@ def extractData(pdf_file, page):
 	data = pageObj.extractText()
 	return data
 
-
 def getWordCount(data):
 
 	data=data.split()
 	return len(data)
-
-
 
 def main():
 	if len(sys.argv)!=2:
@@ -57,8 +51,6 @@ def main():
 		time.sleep(1)
 
 		print (totalWords)
-
-
 
 if __name__ == '__main__':
 	main()
