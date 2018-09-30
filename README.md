@@ -5,7 +5,7 @@ Get the count of words in a pdf file
 ### Requirements:
 
 
-#####**This script needs Python 3+**
+##### This script needs Python 3+
 
 If you don't have Python 3 installed, you just need to install python3 package :
 
